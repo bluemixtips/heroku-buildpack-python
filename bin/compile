@@ -142,8 +142,6 @@ set -e
 
 mkdir -p $(dirname $PROFILE_PATH)
 
-apt-get -y install blender > /dev/null
-
 set +e
 PYTHON_VERSION=$(cat runtime.txt)
 
